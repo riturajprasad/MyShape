@@ -27,7 +27,7 @@ std::vector<std::pair<Point, Point>> Box::getCoordinates() const
 
 std::ostream& operator<<(std::ostream& out, const Box& b)
 {
-	out << b.getName() << "\n";
+	//out << b.getName() << "\n";
 	for (auto cord : b.getCoordinates())
 	{
 		out << cord.first.x << " " << cord.first.y << " " << cord.first.z << "\n";
